@@ -7,7 +7,7 @@
 <script src="https://d3js.org/d3.v4.min.js" charset="utf-8"></script>
 
 <!-- Google Fonts -->
-<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,700|Roboto:100,300,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,700|Roboto:300,900" rel="stylesheet">
 <script src="https://use.typekit.net/ide0lgx.js"></script>
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
  
@@ -27,14 +27,17 @@
 		<!-- Navigation -->
 		<div class= "col-md-4" id="front">
 			<h1>Beatrice Jin_<span class="blinking-cursor">|</span></h1><br>
-			<p> Some intersection of coder, designer, and artist. Big fan of alphabets and black coffee. </p> <br><br>	
+			<p> Some intersection of coder, designer, and artist with a focus on data visualization. Graduating as a math major from Cornell University in December 2017. </p> <br><br>	
 			<h2><a href="#datavis">Data Visualization </a> </h2>
 				<ul>
+					<li><a href="#cornellcrimelogs">The Cornell Crime Logs</a></li>
+					<li><a href="#segment">Segment3D </a></li>
 					<li><a href="#lrtp"> The State of Boston Transportation </a></li>
+					<li><a href="#tip"> Transportation Improvement Dashboard</a></li>
 					<li><a href="#transitopia"> Transitopia</a></li>
+					<li><a href="#sop"> Save Our Programs</a></li>
 					<li><a href="#edm"> Electronic Music</a></li>
 					<li><a href="#tableaux"> Tableaux Visualized</a></li>
-					<li><a href="#tip"> Transportation Improvement Dashboard</a></li>
 				</ul>
 			<h2><a href="#pdesign">Print Design </a> </h2>
 				<ul>
@@ -43,7 +46,6 @@
 					<li><a href="#ovpr"> Cornell Research</a></li>
 					<li><a href="#henry"> Henry the Poet </a></li>
 					<li><a href="#sa"> Sacred Airs</a></li>
-					<li><a href="#upursuit"> Upursuit Startup </a></li>
 				</ul>
 			<h2><a href="#animation">Animation </a> </h2>
 			<ul>
@@ -70,8 +72,8 @@
 			</h4>
 			</div>
 
-			<div class="col-md-12" style="padding-top: 50px">
-			<a href="https://github.com/bzjin"><i class="fa fa-lg fa-github"></i></a> <a href="https://www.linkedin.com/in/beatrice-jin-1486b997/"><i class="fa fa-lg fa-linkedin"></i> <a href="https://twitter.com/theredhankie"><i class="fa fa-lg fa-twitter"></i></a></a>
+			<div class="col-md-12" style="padding-top: 20px">
+			<a href="https://github.com/bzjin"><i class="fa fa-lg fa-github"></i></a> <a href="https://www.linkedin.com/in/beatrice-jin-1486b997/"><i class="fa fa-lg fa-linkedin"></i> <a href="https://twitter.com/bean_doh"><i class="fa fa-lg fa-twitter"></i></a></a>
 			</div>
 		</div>
 		<!-- Right side -->
@@ -79,6 +81,27 @@
 			<div id = "scroll">
 			<div class="col-md-12 sub" id = "main">
 				<h2 id="datavis" class="col-md-12"> Data Visualization </h2>
+					<h2 id="cornellcrimelogs">The Cornell Crime Logs</h2>
+					<h5> Independent project </h5>
+					<p>Interactive <a href="https://bzjin.github.io/Cornell-Crime-Logs/"> report </a> on the Cornell Daily Crime Logs. Data was "scraped" (parsed through HTML) and manually collected from the university <a href="https://dailycrimelog.cupolice.cornell.edu/"> website</a>. Visualizations are made in D3 and Leaflet.js.</p>
+					<article class="thumb col-md-6" >
+							<a href="pics/crimelog1.png" class="image"><img src="pics/crimelog1.png" alt="" /></a>
+					</article>
+					<article class="thumb col-md-6" >
+							<a href="pics/crimelog2.png" class="image"><img src="pics/crimelog2.png" alt="" /></a>
+					</article>
+
+					<h2 id="segment">Segment3D</h2>
+					<h5> NASA Jet Propulsion Laboratory and Caltech </h5>
+					<p>Interactive web-app allows users at the <a href="http://plantlab.caltech.edu/"> Meyerowitz Lab</a> to segment 3D images of plant cells. Planes of the images are visualized with Canvas; 3D renderings are computed with the watershed algorithm and raycasted with Three.js. <a href="http://www.ic.unicamp.br/~ra064761/">Thiago Spina</a> wrote the original database connection and foundation code. </p>
+					<article class="thumb col-md-6" >
+							<a href="pics/segment1.png" class="image"><img src="pics/segment1.png" alt="" /></a>
+					</article>
+					<article class="thumb col-md-6" >
+							<a href="pics/segment2.png" class="image"><img src="pics/segment2.png" alt="" /></a>
+					</article>
+
+				
 					<h2 id="lrtp">The State of Boston Transportation</h2>
 					<h5> Central Transportation and Planning Staff </h5>
 					<p>Comprehensive dashboard of data (geospatial and non-geospatial) visualization on transportation metrics (bike/pedestrian/truck crashes, arterial and expressway congestion, bridge condition, pavement condition, sidewalk counts, bicycle facilities, and demographics). Development involved HTML, CSS, JavaScript, PHP, Node.JS, and D3.JS. Datasets carved from ArcGIS and other departments of the <a href="ctps.org">Central Transportation Planning Staff</a>. The dashboard is now <a href="http://www.ctps.org/dv/lrtp_dashboard/">live.</a></p>
@@ -110,11 +133,41 @@
 							<a href="pics/lrtp12.png" class="image"><img src="pics/lrtp12.png" alt=""/></a>
 					</article>
 				
+
+					<h2 id="tip">Transportation Improvement Dashboard</h2>
+					<h5> Central Transportation and Planning Staff </h5>
+					<p>Interactive D3 web-app allows users to distribute project funding and compare resulting scenarios. Visualizes each funding scenario through targets and investment category distribution. Prints a .csv file which saves progress.</p>
+					<article class="thumb col-md-12" >
+							<a href="pics/tip1.png" class="image"><img src="pics/tip1.png" alt="" /></a>
+					</article>
+					<article class="thumb col-md-6" >
+							<a href="pics/tip2.png" class="image"><img src="pics/tip2.png" alt="" /></a>
+					</article>
+					<article class="thumb col-md-6" >
+							<a href="pics/tip3.png" class="image"><img src="pics/tip3.png" alt="" /></a>
+					</article>
+
 					<h2 id="transitopia">Transitopia</h2>
 					<h5> Central Transportation and Planning Staff </h5>
 					<p>Interactive D3 web-app exploring how funding distribution affects minority and low-income bus routes. This internal tool allows users to understand how they can minimize impact on ridership by adjusting service hours in different routes.</p>
 					<article class="thumb col-md-12" >
 							<a href="pics/transitopia2.png" class="image"><img src="pics/transitopia2.png" alt="" /></a>
+					</article>
+
+				<h2 id="sop">Save Our Programs</h2>
+					<h5> Asian Pacific Americans for Action @ Cornell</h5>
+					<p>Collection of student testimonials about the value of Asian American studies, Africana studies, American Indian and Indigenous studies, Feminist, Gender, and Sexuality studies, LGBT studies, Disability studies, and Latino/a studies. This website part of APAA's initiative to expand ethnic and gender studies at Cornell and is now <a href="saveourprograms.com">live</a>. It shows that these programs are not just about identity, but also about understanding the systems and structures around us. </p>
+					<article class="thumb col-md-6" >
+							<a href="pics/save1.png" class="image"><img src="pics/save1.png" alt="" /></a>
+					</article>
+					<article class="thumb col-md-6" >
+							<a href="pics/save2.png" class="image"><img src="pics/save2.png" alt="" /></a>
+					</article>
+					<article class="thumb col-md-6" >
+							<a href="pics/save3.png" class="image"><img src="pics/save3.png" alt="" /></a>
+					</article>
+					<article class="thumb col-md-6" >
+							<a href="pics/save4.png" class="image"><img src="pics/save4.png" alt="" /></a>
 					</article>
 
 					<h2 id="edm">Electronic Music</h2>
@@ -137,18 +190,6 @@
 							<a href="pics/tableaux2.png" class="image"><img src="pics/tableaux2.png" alt="" /></a>
 					</article>
 
-					<h2 id="tip">Transportation Improvement Dashboard</h2>
-					<h5> Central Transportation and Planning Staff </h5>
-					<p>Interactive D3 web-app allows users to distribute project funding and compare resulting scenarios. Visualizes each funding scenario through targets and investment category distribution. Prints a .csv file which saves progress.</p>
-					<article class="thumb col-md-12" >
-							<a href="pics/tip1.png" class="image"><img src="pics/tip1.png" alt="" /></a>
-					</article>
-					<article class="thumb col-md-6" >
-							<a href="pics/tip2.png" class="image"><img src="pics/tip2.png" alt="" /></a>
-					</article>
-					<article class="thumb col-md-6" >
-							<a href="pics/tip3.png" class="image"><img src="pics/tip3.png" alt="" /></a>
-					</article>
 				<br>
 				<h2 id="pdesign" class="col-md-12"> Print Design </h2>
 					<h2 id="oc">Online Censorship</h2>
@@ -214,18 +255,7 @@
 							<a href="pics/sa4.jpg" class="image"><img src="pics/sa4.jpg" alt="" /></a>
 					</article>
 
-					<h2 id="upursuit">Upursuit Startup</h2>
-					<h5>(independent project)</h5>
-					<p>Slide deck and mobile application mockups made in Adobe Photoshop and Illustrator, presented in front of Cornell administration and summer incubator Life Changing Labs</p>
-					<article class="thumb col-md-12" >
-							<a href="pics/upursuit1.jpg" class="image"><img src="pics/upursuit1.jpg" alt="" /></a>
-					</article>
-					<article class="thumb col-md-6" >
-							<a href="pics/upursuit2.jpg" class="image"><img src="pics/upursuit2.jpg" alt="" /></a>
-					</article>
-					<article class="thumb col-md-6" >
-							<a href="pics/upursuit3.jpg" class="image"><img src="pics/upursuit3.jpg" alt="" /></a>
-					</article>
+
 
 					<br><h2 id="animation"> Animation </h2>
 					<h2 id="fish">How do Fish Know When to Sing?</h2>
@@ -247,7 +277,7 @@
 					<article class="thumb col-md-12" >
 							<a href="pics/digdraw2.jpg" class="image"><img src="pics/digdraw2.jpg" alt="" /></a>
 					</article>
-					<article class="thumb col-md-12" >
+					<article class="thumb col-md-6" >
 							<a href="pics/draw1.jpg" class="image"><img src="pics/draw1.jpg" alt="" /></a>
 					</article>
 					<article class="thumb col-md-6" >
@@ -256,7 +286,7 @@
 					<article class="thumb col-md-6" >
 							<a href="pics/draw5.jpg" class="image"><img src="pics/draw5.jpg" alt="" /></a>
 					</article>
-					<article class="thumb col-md-12" >
+					<article class="thumb col-md-6" >
 							<a href="pics/draw2.jpg" class="image"><img src="pics/draw2.jpg" alt="" /></a>
 					</article>
 					<article class="thumb col-md-6" >

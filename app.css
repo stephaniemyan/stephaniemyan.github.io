@@ -6,6 +6,7 @@
   padding:0;
 }
 
+
 html{ 
   background-color: white; 
 }
@@ -23,7 +24,7 @@ div {
 }
 
 h2 { 
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300; 
   margin: 0;
   font-size: 16px;
@@ -37,30 +38,39 @@ h2#datavis, h2#pdesign, h2#animation, h2#draw, h2#painting {
 
 
 h3 { 
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700; 
   margin: 0;
   font-size: 18px;
 }
 
 h5 {
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300; 
-  color: orange;
+  color: #007897;
   opacity: .5;
   margin-top: -5px;
   font-size: 14px;
 }
 
-li, li > a  {
-  font-family: "Roboto Slab", serif;
-  font-weight: 100 !important; 
-  margin-left: 15px;
-  font-size: 14px;
-  list-style: none;
+a { 
+  font-family: "Roboto", sans-serif;
+  color: black;
 }
 
-a {
+a:hover, a:focus, a:active, a.active { 
+  text-decoration: none;
+  color: orange;
+  font-weight: 700;
+  opacity: 1;
+}
+
+li, li > a  {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100 !important; 
+  margin-left: 15px;
+  font-size: 12px;
+  list-style: none;
   color: black;
 }
 
@@ -129,17 +139,6 @@ iframe {
   margin-top: 10px;
  }
 
-a { 
-  font-family: "Roboto Slab", serif;
-}
-
-a:hover, a:focus, a:active, a.active { 
-  text-decoration: none;
-  color: orange;
-  font-weight: 700;
-  opacity: 1;
-}
-
 li.smol > a {
   font-size: 10px !important;
 }
@@ -181,6 +180,18 @@ li.smol > a {
   -ms-animation: 1s blink step-end infinite;
   -o-animation: 1s blink step-end infinite;
   animation: 1s blink step-end infinite;
+}
+
+/* style list scroll bars */
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+    height: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
 }
 
 @keyframes "blink" {
