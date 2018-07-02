@@ -43,3 +43,16 @@ header ul li {
   width: 100%;
   margin-top: 10px
 }
+
+.work-item a {
+  margin-bottom: 10px !important;
+}
+
+#three .col-4 {
+    margin-bottom: 0px;
+}
+
+#five .work-item, #five .tall-work-item img {
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+}
