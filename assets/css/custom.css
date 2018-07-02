@@ -1,0 +1,45 @@
+.work-item img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  text-decoration: none;
+}
+
+ul li, .icon {
+  color: black !important
+}
+
+p {
+  font-family: "Source Sans Pro" !important
+}
+
+header p {
+  font-size: .9em;
+  line-height: 1.5;
+}
+
+header ul li a {
+  font-size: .9em;
+  text-decoration: none;
+  color: black;
+}
+
+header ul li a:hover {
+  color: black !important;
+  font-weight: 700;
+}
+
+header ul li {
+  list-style-type: none;
+}
+
+.work-item a {
+  border: none;
+}
+
+.tall-work-item img {
+  object-fit: cover;
+  height: 400px !important;
+  width: 100%;
+  margin-top: 10px
+}
