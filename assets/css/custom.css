@@ -56,3 +56,15 @@ header ul li {
   margin-bottom: 0px !important;
   margin-top: 0px !important;
 }
+
+td.date {
+  color: grey;
+}
+
+td.work {
+  font-weight: 300;
+}
+
+td.work a{
+  font-weight: 700;
+}
