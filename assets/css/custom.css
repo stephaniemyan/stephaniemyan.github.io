@@ -33,10 +33,6 @@ header ul li {
   list-style-type: none;
 }
 
-.work-item a {
-  border: none;
-}
-
 .tall-work-item img {
   object-fit: cover;
   height: 400px !important;
@@ -45,7 +41,12 @@ header ul li {
 }
 
 .work-item a {
+  border: none;
   margin-bottom: 10px !important;
+}
+
+.link {
+  border-bottom: solid 2px #49bf9d !important;
 }
 
 #three .col-4 {
