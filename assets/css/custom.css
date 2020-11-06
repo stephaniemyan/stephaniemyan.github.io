@@ -1,9 +1,20 @@
-.work-item img {
+.col-6 img {
   object-fit: cover;
   height: 200px;
   width: 100%;
   text-decoration: none;
+  margin-bottom: 8px;
 }
+
+.col-12 img {
+  object-fit: cover;
+  height: 400px;
+  width: 100%;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+
 
 ul li, .icon {
   color: black !important
@@ -43,6 +54,14 @@ header ul li {
 .work-item a {
   border: none;
   margin-bottom: 10px !important;
+}
+
+.work-item p {
+  font-size: .9rem
+}
+
+.work-item p a {
+  border-bottom: solid 2px #49bf9d !important;
 }
 
 .link {
