@@ -1,14 +1,15 @@
-.col-6 img {
+
+.col-12 img {
   object-fit: cover;
-  height: 200px;
+  height: 400px;
   width: 100%;
   text-decoration: none;
   margin-bottom: 8px;
 }
 
-.col-12 img {
+.col-6 img {
   object-fit: cover;
-  height: 400px;
+  height: 200px;
   width: 100%;
   text-decoration: none;
   margin-bottom: 8px;
@@ -103,4 +104,12 @@ div.year hr {
   margin-top: 0 !important;
   border-bottom: 5px solid lightgray;
   width: 50px;
+}
+
+.col-4 img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+  text-decoration: none;
+  margin-bottom: 8px;
 }
