@@ -62,11 +62,11 @@ header ul li {
 }
 
 .work-item p a {
-  border-bottom: solid 2px #49bf9d !important;
+  border-bottom: solid 2px #68a6ed !important;
 }
 
 .link {
-  border-bottom: solid 2px #49bf9d !important;
+  border-bottom: solid 2px #68a6ed !important;
 }
 
 #three .col-4 {
@@ -98,12 +98,14 @@ div.year h3 {
   font-weight: lighter;
   width: 100%;
   margin-bottom: 0 !important;
+  margin-top: 30;
 }
 
 div.year hr {
   margin-top: 0 !important;
   border-bottom: 5px solid lightgray;
   width: 50px;
+  margin-bottom: 15px;
 }
 
 .col-4 img {

@@ -103,7 +103,7 @@ input, select, textarea {
 		font-family: "Overpass", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
-		line-height: 1.75em;
+		line-height: 1.6em;
 	}
 
 	a {
@@ -111,14 +111,14 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-		border-bottom: solid 2px #49bf9d;
+		border-bottom: solid 2px #68a6ed;
 		color: black;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: #68a6ed !important;
 			text-decoration: none;
 		}
 
@@ -132,7 +132,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -186,7 +186,7 @@ input, select, textarea {
 	sup {
 		font-size: 0.8em;
 		position: relative;
-		top: -0.5em;
+		top: -1.5em;
 	}
 
 	hr {
@@ -2092,6 +2092,7 @@ input, select, textarea {
 
 		ul li {
 			padding-left: 0.5em;
+			font-size: .95rem;
 		}
 
 		ul.alt {
