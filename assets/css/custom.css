@@ -88,11 +88,17 @@ header ul li {
 
 .work-item-short a {
   border: none;
+  color: #68a6ed !important;
   margin-bottom: 0px !important;
 }
 
 .work-item-short p {
   margin-bottom: 0px !important;
+}
+
+.work-item-short h4 {
+  font-size: 1em;
+  margin-bottom: 4px !important;
 }
 
 .link {
