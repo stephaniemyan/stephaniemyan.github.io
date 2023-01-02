@@ -103,7 +103,7 @@ input, select, textarea {
 		font-family: "Overpass", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
-		line-height: 1.6em;
+		line-height: 1.4em;
 	}
 
 	a {
@@ -132,7 +132,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 1em 0;
+		margin: 0 0 1.5em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -198,6 +198,12 @@ input, select, textarea {
 		hr.major {
 			margin: 3em 0;
 		}
+
+	/*br {
+        display: block; /* makes it have a width */
+        /*content: ""; /* clears default height */
+        /*margin-top: 100; /* change this to whatever height you want it */
+	/*}*/
 
 	blockquote {
 		border-left: solid 6px #efefef;
@@ -2304,6 +2310,8 @@ input, select, textarea {
 			border: solid 1px #efefef;
 			border-left: 0;
 			border-right: 0;
+			font-size: 11.5pt;
+			line-height: 1.1em;
 		}
 
 			table tbody tr:nth-child(2n + 1) {

@@ -45,9 +45,30 @@ header ul li {
   list-style-type: none;
 }
 
+.xtratall-work-item img {
+  object-fit: cover;
+  height: 790px !important;
+  width: 100%;
+  margin-top: 10px
+}
+
 .tall-work-item img {
   object-fit: cover;
   height: 400px !important;
+  width: 100%;
+  margin-top: 10px
+}
+
+.short-work-item img {
+  object-fit: cover;
+  height: 300px !important;
+  width: 100%;
+  margin-top: 10px
+}
+
+.xtrashort-work-item img {
+  object-fit: cover;
+  height: 250px !important;
   width: 100%;
   margin-top: 10px
 }
@@ -63,6 +84,15 @@ header ul li {
 
 .work-item p a {
   border-bottom: solid 2px #68a6ed !important;
+}
+
+.work-item-short a {
+  border: none;
+  margin-bottom: 0px !important;
+}
+
+.work-item-short p {
+  margin-bottom: 0px !important;
 }
 
 .link {
