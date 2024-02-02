@@ -16,7 +16,7 @@
 				<h1> Stephanie Yan </h1>
 					<p>PhD candidate studying human genetics, genomics, & evolution</p>
 					<ul>
-						<li><a href="#research"> Research Projects </a></li>
+						<li><a href="pages/research.html"> Research Projects </a></li>
 						<li><a href="#grants"> Fellowships & Awards </a></li>
 						<li><a href="pages/service.html"> Academic Service </a></li>
 						<li><a href="pages/teaching.html"> Teaching </a></li>
@@ -32,7 +32,7 @@
 				<!-- Bio -->
 				<section id="bio">
 					<p>I’m a PhD candidate in the <a href="https://cmdb.jhu.edu/"> Cell, Molecular, Developmental Biology, and Biophysics</a> (CMDB) program at Johns Hopkins University, in the lab of <a href="https://mccoy-lab.org/"> Rajiv McCoy</a>.</p>
-					<p>My PhD research focuses on the evolutionary impacts of genetic variation within complex regions of the genome. These regions, which are typically repetitive and/or structurally rearranged, are difficult to study with traditional genomics approaches — but new sequencing and computational methods have given us the tools to start uncovering their biological functions.</p>
+					<p>I use long- and short-read sequencing data to understand the evolutionary impacts of repetitive and structurally complex genomic regions, including structural variants.</p>
 				</section>
 
 				<!-- Research -->
@@ -41,21 +41,79 @@
 
 					<div class="row">
 						<article class="col-6 col-12-xsmall work-item">
-							<a href="https://elifesciences.org/articles/67615" target="_blank"><img src="images/thumbs/sv_selection.png" alt="Recombination in an adaptive immunoglobulin haplotype" /></a>
-							<h3>Local adaptation at human structural variant loci</h3>
-							<p>Large genomic rearrangements (insertions, deletions, etc.), called structural variants (SVs), are an understudied form of genetic variation that can have dramatic functional impacts. These variants are hard to discover with normal sequencing methods, and instead require expensive and low-throughput long-read sequencing to study comprehensively. We used a hybrid approach to study SVs on a population-wide scale: SV discovery with long-read sequencing + computational genotyping in a large dataset of diverse human individuals. We found evidence of SVs under positive selection in specific populations, including a sequence in the immunoglobulin locus that was inherited into humans from Neanderthals.</p>
+							<a href="pages/research.html#clonal-hematopoiesis" target="_blank"><img src="images/thumbs/chip.jpg" alt="Phylogeny from clonal hematopoiesis simulation" /></a>
+							<h3><a href="pages/research.html#clonal-hematopoiesis">Evolutionary simulations of somatic mosaicism</a></h3>
+							<p>The cells in our bodies accumulate somatic mutations throughout our lives. Some mutations cause overproliferation can can eventually lead to cancer. I developed a model of these evolutionary dynamics in the blood, built in the software SLiM, that includes telomere shortening as a cell death mechanism.</p>
 						</article>
 						<article class="col-6 col-12-xsmall work-item">
-							<a href="https://www.science.org/doi/10.1126/science.abl3533" target="_blank"><img src="images/thumbs/t2t_variants.png" alt="Frequency-differentiated variants in T2T-CHM13 novel regions" /></a>
-							<h3>Characterizing a complete human reference genome</h3>
-							<p>When the human genome was first sequenced in 2001, 8% of its most complex and repetitive regions were inaccessible to current sequencing technologies, and consequently remained incomplete for the next two decades. In 2021, the Telomere-to-Telomere Consortium used long-read sequencing to assemble the first ever complete human reference genome, <a href="https://www.biorxiv.org/content/10.1101/2021.05.26.445798v1"> T2T-CHM13</a>. Within this collaborative project, I characterized the ancestry of this new reference genome and identified portions that were inherited from Neanderthals. I also studied regions of the human genome that were revealed for the first time by the T2T-CHM13 assembly, to understand how variants in these regions may affect human health. </p>
+							<a href="pages/research.html#t2t" target="_blank"><img src="images/thumbs/t2t_variants.jpg" alt="Frequency-differentiated variants in T2T-CHM13 novel regions" /></a>
+							<h3><a href="pages/research.html#t2t">Novel variant discovery with the<br>Telomere-to-Telomere Consortium</a></h3>
+							<p>When the human genome was first sequenced in 2001, 8% of its most complex regions remained incomplete for the next two decades. I worked with the Telomere-to-Telomere Consortium, which assembled the first ever complete human genome in 2021, to assess how this genome can improve genetics research.</p>
 						</article>
 						<article class="col-6 col-12-xsmall work-item">
-							<a href="https://www.sciencedirect.com/science/article/abs/pii/S0959437X20300654" target="_blank"><img src="images/thumbs/gd_review.png" alt="Prediction of archaic gene expression by Colbran et al. (2019)" /></a>
-							<h3>Review: Studying archaic hominin gene expression [<a href="images/gd_review.pdf">PDF here</a>]</h3>
-							<p>Recent research on Neanderthals and Denisovans, the closest evolutionary relatives to modern humans, has begun exploring patterns of gene expression to better understand how these archaic hominins may have been different from modern humans. Studying gene expression means working on RNA, which is too fragile to survive the tens of thousands of years that separate us from archaic hominins. As a result, researchers have developed many creative approaches for inferring archaic gene expression from DNA sequencing data. We summarized these methods in this review.</p>
+							<a href="pages/research.html#sv-selection" target="_blank"><img src="images/thumbs/sv_selection.png" alt="Schematic of variant graph genotyping" /></a>
+							<h3><a href="pages/research.html#sv-selection">Selection and introgression at human structural variant loci</a></h3>
+							<p>Large genomic rearrangements, called structural variants, are understudied but can have dramatic functional impacts. I used a hybrid genotyping approach to discover these variants on a population-wide scale, and found evidence of a Neanderthal structural variant under selection in southeast Asia.</p>
+						</article>
+						<article class="col-6 col-12-xsmall work-item">
+							<a href="pages/research.html#archaic-expr" target="_blank"><img src="images/thumbs/gd_review.png" alt="Prediction of archaic gene expression by Colbran et al. (2019)" /></a>
+							<h3><a href="pages/research.html#archaic-expr">Review: Studying archaic hominin gene expression</a></h3>
+							<p>Recent research on Neanderthals and Denisovans has used gene expression to understand how archaic hominins may have differed from modern humans. In this review, I described the creative methods used to infer archaic hominin gene expression from DNA sequencing data.</p>
 						</article>
 					</div>
+
+					<h3>Oral Presentations</h3>
+					<table style="width:100%">
+						<tr>
+							<td class="date">2022</td>
+							<td class="work">
+								JHU CMDB Program Retreat
+								<br><b>Local adaptation and archaic introgression at human structural variant loci</b>
+							</td>
+						</tr>
+						<tr>
+							<td class="date">2022</td>
+							<td class="work">
+								T2T-F2F
+								<br><b>Human genetic diversity within challenging regions of the genome</b>
+							</td>
+						</tr>
+						<tr>
+							<td class="date">2022</td>
+							<td class="work">
+								Advances in Genome Biology and Technology
+								<br><b>A complete reference genome improves analysis of human genetic variation</b>
+							</td>
+						</tr>
+						<tr>
+							<td class="date">2021</td>
+							<td class="work">
+								eLife Symposium: Evolutionary Medicine
+								<br><b>Local adaptation and archaic introgression at human structural variant loci</b>
+							</td>
+						</tr>
+						<tr>
+							<td class="date">2021</td>
+							<td class="work">
+								Biology of Genomes, Cold Spring Harbor Laboratory
+								<br><b>Local adaptation and archaic introgression at human structural variant loci</b>
+							</td>
+						</tr>
+						<tr>
+							<td class="date">2020</td>
+							<td class="work">
+								American Society of Human Genetics
+								<br><b>The role of structural variation in human local adaptation</b>
+							</td>
+						</tr>
+						<tr>
+							<td class="date">2020</td>
+							<td class="work">
+								Society for Molecular Biology & Evolution <b>| <i>Cancelled due to COVID-19</b></i>
+								<br><b>The role of structural variation in human local adaptation</b>
+							</td>
+						</tr>
+					</table>
 				</section>
 
 				<!-- Grants -->
@@ -78,7 +136,7 @@
 						<tr>
 							<td class="date">2020</td>
 							<td class="work">
-								<a href="https://ctei.jhu.edu/programs-and-services/techfellows">Technology Fellowship Grant</a>, JHU Center for Educational Resources
+								<a href="https://ctei.jhu.edu/programs-and-services/instructional-enhancement-grant-program">Instructional Enhancement Grant</a>, JHU Center for Teaching Excellence & Innovation
 							</td>
 						</tr>
 						<tr>
@@ -116,17 +174,12 @@
 						<article class="col-6 col-12-xsmall work-item">
 							<a href="pages/service.html#symbiosis" target="_blank"><img src="images/thumbs/symbiosis.jpg" alt="The symBIOsis organizing committee in fall 2022" /></a>
 							<h3><a href="pages/service.html#symbiosis" target="_blank">symBIOsis</a></h3>
-							<p>A support and mentorship organization for biology graduate students (that I co-founded in 2020!).</p>
+							<p>A support and mentorship group for biology PhD students, which I co-founded in 2020.</p>
 						</article>
 						<article class="col-6 col-12-xsmall work-item">
 							<a href="pages/service.html#bioreps" target="_blank"><img src="images/thumbs/bioreps.jpg" alt="Stock photo of JHU's Gilman Hall" /></a>
 							<h3><a href="pages/service.html#bioreps" target="_blank">BioReps</a></h3>
-							<p>Advocating for the CMDB student body and my graduate cohort as an elected representative.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
-							<a href="pages/service.html#conferences" target="_blank"><img src="images/thumbs/retreat.jpg" alt="Group photo from the 2019 CMDB retreat" /></a>
-							<h3><a href="pages/service.html#conferences" target="_blank">Conference moderation</a></h3>
-							<p>I've been a moderator for sessions at two conferences — ASHG 2021 and the 2019 CMDB retreat.</p>
+							<p>I advocate for the CMDB student body as my graduate cohort's elected representative.</p>
 						</article>
 					</div>
 
@@ -138,14 +191,14 @@
 
 					<div class="row">
 						<article class="col-6 col-12-xsmall work-item">
-							<a href="pages/teaching.html#qbb" target="_blank"><img src="images/thumbs/qbb.jpg" alt="A PCA plot of the 1000 Genomes dataset" /></a>
-							<h3><a href="pages/teaching.html#qbb" target="_blank">Quantitative Biology</a></h3>
-							<p>Introducing new biology PhD students to computational biology as a teaching assistant for the CMDB program's <a href="http://bxlab.github.io/cmdb-bootcamp/"> Quantitative Biology Bootcamp</a>.</p>
-						</article>
-						<article class="col-6 col-12-xsmall work-item">
 							<a href="pages/teaching.html#hgv" target="_blank"><img src="images/thumbs/hgv.jpg" alt="Logo for Human Genome Variation Lab" /></a>
 							<h3><a href="pages/teaching.html#hgv" target="_blank">Human Genome Variation Lab</a></h3>
-							<p>Co-developing (with <a href="https://kweav.github.io/">Kate Weaver</a>) open-source R modules for introducing undergraduates to human genetics research.</p>
+							<p>Funded by the JHU Center for Teaching Excellence & Innovation, I developed <a href = "https://github.com/mccoy-lab/hgv_modules">open-source teaching modules</a> for an undergraduate course on human genetic variation.</p>
+						</article>
+						<article class="col-6 col-12-xsmall work-item">
+							<a href="pages/teaching.html#qbb" target="_blank"><img src="images/thumbs/qbb.jpg" alt="A PCA plot of the 1000 Genomes dataset" /></a>
+							<h3><a href="pages/teaching.html#qbb" target="_blank">Quantitative Biology</a></h3>
+							<p>I introduced new biology PhD students to computational biology as a teaching assistant for the CMDB program's <a href="http://bxlab.github.io/cmdb-bootcamp/"> Quantitative Biology Bootcamp</a>.</p>
 						</article>
 					</div>
 
@@ -160,7 +213,7 @@
 						<article class="col-6 col-12-xsmall work-item">
 							<a href="pages/pokemon_curry.html" target="_blank"><img src="images/thumbs/pokemon_curry.png" alt="Homemade 'Decorative Curry'" /></a>
 							<h3><a href="pages/pokemon_curry.html" target="_blank">Pokémon Sword and Shield Curry</a></h3>
-							<p>From May 2020 to May 2021, I recreated all 26 varieties of curry from Pokémon Sword and Shield's <a href="https://www.serebii.net/swordshield/currydex.shtml"> Curry Dex</a>. Then I ranked them on a tier list. (#5 Will SHOCK You)</p>
+							<p>From May 2020 to May 2021, I recreated all 26 varieties of curry from Pokémon Sword and Shield's <a href="https://www.serebii.net/swordshield/currydex.shtml"> Curry Dex</a>, so that you don't have to.</p>
 						</article>
 						<article class="col-6 col-12-xsmall work-item">
 							<a href="https://smyan.shinyapps.io/sv_ld_shiny"><img src="images/thumbs/sv_ld.jpg" alt="Screenshot of SV LD browser" /></a>
@@ -176,6 +229,7 @@
 		<footer id="footer">
 			<div class="inner">
 				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/stephanie-yan-560805a4/" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
 					<li><a href="https://scholar.google.com/citations?&user=Nudz5VkAAAAJ&sortby=pubdate" class="icon fa-graduation-cap" target="_blank"><span class="label">Google Scholar</span></a></li>
 					<li><a href="http://twitter.com/smyan__" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
 					<li><a href="http://github.com/stephaniemyan" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>

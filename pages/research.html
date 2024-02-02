@@ -1,0 +1,116 @@
+<html>
+	<head>
+		<title>Stephanie Yan</title>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" type="image/x-icon" href="../images/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="./../assets/css/main.css" />
+		<link rel="stylesheet" href="./../assets/css/custom.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+		<header id="header">
+			<div class="inner">
+				<a href="../index.html" class="image avatar"><img src="./../images/avatar.jpg" alt="Link to work" /></a>
+				<h1> Stephanie Yan </h1>
+					<p>PhD candidate studying human genetics, genomics, & evolution</p>
+					<ul>
+						<li><a href="./research.html"> Research Projects </a></li>
+						<li><a href="../index.html#grants"> Fellowships & Awards </a></li>
+						<li><a href="./service.html"> Academic Service </a></li>
+						<li><a href="./teaching.html"> Teaching </a></li>
+						<li><a href="../index.html#personal"> Personal Projects </a></li>
+						<li><a href="../pages/StephanieMYan_CV.pdf"> Download CV </a></li>
+					</ul>
+			</div>
+		</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<section id="clonal-hematopoiesis">
+					<h2>Research Projects</h2>
+
+					<div class="row ">
+						<article class="col-12 short-work-item"><a href="../images/longs/ch.jpg" class="image fit"><img src="../images/longs/ch.jpg" alt="Phylogeny from clonal hematopoiesis simulation" /></a></article>
+					</div>
+					<h3> Evolutionary simulations of somatic mosaicism </h3>
+
+					<p>The cells in our bodies accumulate somatic mutations throughout our lives. Mutations with fitness benefits can cause a cell to overproliferate, creating a <b>clonal lineage</b> of daughter cells — a phenomenon that can eventually lead to cancer.</p>
+					<p>I collaborated with the <a href="https://www.hopkinsmedicine.org/profiles/details/mary-armanios">Armanios lab</a> at the JHU School of Medicine to develop an agent-based model of somatic evolutionary dynamics in the blood, built with the population genetics software <a href="https://messerlab.org/slim/">SLiM</a>.</p>
+					<p><a href="https://github.com/mccoy-lab/pot1_ch_2022/tree/main/simulations">My simulation</a> tracks the development of clonal lineages in the blood over time, accounting for how telomere shortening can induce cell death. Our model showed that telomere length alone increases the risk of accumulating harmful somatic mutations and cancer.</p>
+
+					<h4> Publications </h4>
+					<p>DeBoy EA*, Tassia MG*, Schratz KE, <a href="https://www.nejm.org/doi/full/10.1056/NEJMoa2300503">Yan SM</a>, et al. (2023). <b>Familial clonal hematopoiesis in a long telomere syndrome</b>. <i>New England Journal of Medicine</i>, 388: 2422–2433.</p>
+
+				</section>
+
+				<section id="t2t">
+					<div class="row ">
+						<article class="col-12 short-work-item"><a href="../images/longs/t2t.jpg" class="image fit"><img src="../images/longs/t2t.jpg" alt="Comparison of T2T-CHM13 and GRCh38 assemblies" /></a></article>
+					</div>
+					<h3> Telomere-to-Telomere Consortium </h3>
+
+					<p>When the human genome was first sequenced in 2001, 8% of its most complex and repetitive regions were inaccessible to current sequencing technologies, and remained incomplete for the next two decades.</p>
+					<p>In 2021, the <a href="https://sites.google.com/ucsc.edu/t2tworkinggroup/home">Telomere-to-Telomere Consortium</a> used long-read sequencing to assemble the first ever complete human reference genome, T2T-CHM13.</p>
+					<p>Within this collaborative project, I led the <a href="https://github.com/mccoy-lab/t2t-variants">analysis of novel variants</a> in the T2T-CHM13 assembly to identify population-specific genetic variation. These discoveries highlight the potential impact of the T2T-CHM13 reference for revealing novel insights into human evolutionary history. I also annotated the local ancestry and Neanderthal-introgressed regions of the genome to facillitate its use a resource for the scientific community.</p>
+
+					<h4> Publications </h4>
+					<p>Soto DC*, Kirsche M*, <a href="https://www.science.org/doi/10.1126/science.abl3533">Yan SM*</a>, & Zarate S*. (2023). <b>The human reference genome is finally complete</b>. <i>The Science Breaker</i>.<br>Aganezov S*, <a href="https://www.science.org/doi/10.1126/science.abl3533">Yan SM*</a>, Soto DC*, Kirsche M*, Zarate S*, et al. (2021). <b>A complete reference genome improves analysis of human genetic variation</b>. <i>Science</i>, 376(6588): 54.<br>Nurk S*, Koren S*, Rhie A*, Rautiainen M*, ... , <a href="https://www.science.org/doi/10.1126/science.abj6987">Yan SM</a>, et al. (2022). <b>The complete sequence of a human genome</b>. <i>Science</i>, 376(6588): 44–53.</p>
+
+				</section>
+
+				<section id="sv-selection">
+					<div class="row ">
+						<article class="col-12 short-work-item"><a href="../images/longs/sv.jpg" class="image fit"><img src="../images/longs/sv.jpg" alt="Schematic of variant graph genotyping" /></a></article>
+					</div>
+					<h3> Local adaptation at human structural variant loci </h3>
+
+					<p>Large genomic rearrangements (insertions, deletions, etc.), called <b>structural variants (SVs)</b>, are an understudied form of genetic variation that can have dramatic functional impacts.</p>
+					<p>These variants are hard to discover with normal sequencing methods, and instead require expensive and low-throughput long-read sequencing to study comprehensively. We used a hybrid approach to study structural variants on a population-wide scale: <a href="https://github.com/mccoy-lab/sv_selection">discovery with long-read sequencing, followed by graph genotyping</a> in a large dataset of diverse human individuals.</p>
+					<p>We found evidence of 220 structural variants under population-specific positive selection, including a sequence in the immunoglobulin locus that was inherited into humans from Neanderthals.</p>
+
+					<h4> Publications </h4>
+					<p>DeGorter MK*, Goddard PC*, Karakoc E, Kundu E, Kundu S, <a href="https://www.biorxiv.org/content/10.1101/2023.11.04.564839v1">Yan SM</a>, et al. (2023). <b>Transcriptomics and chromatin accessibility in multiple African population samples</b>. <i>bioRxiv</i>.<br><a href="https://elifesciences.org/articles/67615">Yan SM</a>, Sherman RM, Taylor DJ, Nair DR, Bortvin AN, Schatz MC, & McCoy RC. (2021). <b>Local adaptation and archaic introgression shape global diversity at human structural variant loci</b>. <i>eLife</i>, 10: e67615.</p>
+				</section>
+
+				<section id="archaic-expr">
+					<div class="row ">
+						<article class="col-12 short-work-item"><a href="../images/longs/gd_review.jpg" class="image fit"><img src="../images/longs/gd_review.jpg" alt="Prediction of archaic gene expression by Colbran et al. (2019)" /></a></article>
+					</div>
+					<h3> Archaic hominin gene expression </h3>
+
+					<p>Recent research on Neanderthals and Denisovans, the closest evolutionary relatives to modern humans, has begun <a href="https://www.cell.com/fulltext/S0092-8674(17)30128-9">exploring patterns of gene expression</a> to understand how these archaic hominins differed from modern humans.</p>
+					<p>Studying gene expression means working on RNA, which is too fragile to survive the tens of thousands of years that separate us from archaic hominins. Consequently, researchers have developed creative approaches for inferring archaic gene expression from DNA sequencing data, which I described in this review.</p>
+
+					<h4> Publications </h4>
+					<p><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7483639/">Yan SM</a> & McCoy RC. (2020). <b>Archaic hominin genomics provides a window into gene expression evolution</b>. <i>Current Opinion in Genetics & Development</i>, 62: 44-49.<br><a href="https://www.nature.com/articles/s41559-019-0995-y">Yan SM</a> & McCoy RC. (2019). <b>Functional divergence among hominins</b>. <i>Nature Ecology & Evolution: News & Views</i>, 3: 1507–1508.</p>
+				</section>
+
+
+		<!-- Footer -->
+		<footer id="footer">
+			<div class="inner">
+				<ul class="icons">
+					<li><a href="https://www.linkedin.com/in/stephanie-yan-560805a4/" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://scholar.google.com/citations?&user=Nudz5VkAAAAJ&sortby=pubdate" class="icon fa-graduation-cap" target="_blank"><span class="label">Google Scholar</span></a></li>
+					<li><a href="http://twitter.com/smyan__" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+					<li><a href="http://github.com/stephaniemyan" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Stephanie Yan</li><li>Template: <a href="http://html5up.net">HTML5 UP</a>; <a href="https://bzjin.github.io/">Beatrice Jin</a></li>
+				</ul>
+			</div>
+		</footer>
+
+		<!-- Scripts -->
+			<script src="./../assets/js/jquery.min.js"></script>
+			<script src="./../assets/js/jquery.poptrox.min.js"></script>
+			<script src="./../assets/js/browser.min.js"></script>
+			<script src="./../assets/js/breakpoints.min.js"></script>
+			<script src="./../assets/js/util.js"></script>
+			<script src="./../assets/js/main.js"></script>
+
+	</body>
+</html>
